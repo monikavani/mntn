@@ -170,4 +170,12 @@ Section{
   .mainSectionContent{
     padding: 40px 20px;
   }
+  .mainSectionImg2{
+    top: 30%;
+    z-index: 0;
+  }
+  .mainSectionImg3{
+    top: 40%;
+    z-index: 9;
+  }
 }
