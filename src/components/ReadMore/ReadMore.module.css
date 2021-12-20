@@ -1,0 +1,21 @@
+.readMore{
+    color: var(--accentColor);
+    display: flex;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.readMore span{
+    border-bottom: 1px solid transparent;
+    transition: 0.4s all ease-in;
+}
+.readMore:hover span{ 
+    border-bottom: 1px solid var(--accentColor);
+}
+.readMore img{
+    margin-left: 16px;
+    transition: 0.4s all ease-in;
+}
+.readMore:hover img{
+   transform: translate(5px, 0);
+}

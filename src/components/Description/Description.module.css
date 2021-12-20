@@ -1,0 +1,10 @@
+.para{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--textColor);
+    font-family: var(--primary);
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 600;
+}

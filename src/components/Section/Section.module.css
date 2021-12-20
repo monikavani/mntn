@@ -1,0 +1,55 @@
+.sectionWrap{
+    position: relative;
+    display: flex;
+    align-items: stretch;
+}
+.left{
+    width: 60%;
+    padding: 60px 80px;
+    position: relative;
+}
+.right{
+    width: 40%;
+}
+.sectionImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.leftLayout{
+    flex-direction: row-reverse;
+}
+.leftLayout .left{
+    order: 1;
+    position: relative;
+    padding: 60px 0 60px 80px;
+    margin-left: 80px;
+}
+.leftLayout .right{
+    order: 2;
+}
+
+/* Media Query */
+@media screen and (max-width: 992px){
+  .sectionWrap{
+    flex-direction: column-reverse;
+  }
+  .left, 
+  .leftLayout .left{
+    padding: 60px 20px;
+    width: 100%;
+    margin: 0;
+  }
+  .right{
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  
+}
+
+@media screen and (max-width: 576px){
+  
+}

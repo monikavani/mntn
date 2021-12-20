@@ -1,0 +1,26 @@
+.headingTitle{
+    font-family: var(--secondary-font);
+    font-size: 64px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+/* Media query */
+@media screen and (max-width: 992px){
+    .headingTitle{
+        font-size: 48px;
+        line-height: 1.2;
+    }
+}
+  
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 576px){
+    .headingTitle{
+        font-size: 40px;
+    }
+}

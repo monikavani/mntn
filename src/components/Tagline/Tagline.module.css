@@ -1,0 +1,23 @@
+.taglineTitle{
+    font-size: 18px;
+    color: var(--accentColor);
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.4;
+}
+.taglineTitleLine{
+    background: var(--accentColor);
+    width: 72px;
+    height: 2px;
+    margin-right: 24px;
+}
+
+@media screen and (max-width: 992px){
+    .taglineTitle{
+        font-size: 14px;
+    }
+}
