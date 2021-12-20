@@ -172,10 +172,8 @@ Section{
   }
   .mainSectionImg2{
     top: 30%;
-    z-index: 0;
   }
   .mainSectionImg3{
     top: 40%;
-    z-index: 9;
   }
 }
